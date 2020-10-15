@@ -1,0 +1,23 @@
+[33mcommit 0515c20d33e8c9187f6f968566eddb34ea296156[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: somoyplatformltd <sabbir.somoy@gmail.com>
+Date:   Thu Oct 15 19:55:59 2020 +0600
+
+    user registration complete
+
+[33mcommit 434e612f23e3edc811507403cf2705908a949f42[m
+Author: somoyplatformltd <sabbir.somoy@gmail.com>
+Date:   Thu Oct 15 18:05:26 2020 +0600
+
+    fixing routing
+
+[33mcommit 23fd0b8ce1e40bad1c2a60595d08c6e521cdc60f[m
+Author: somoyplatformltd <sabbir.somoy@gmail.com>
+Date:   Thu Oct 15 17:42:41 2020 +0600
+
+    install passport
+
+[33mcommit e8854091cced6649b79c43f2c1ea0b1281621bdd[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: somoyplatformltd <sabbir.somoy@gmail.com>
+Date:   Thu Oct 15 17:28:04 2020 +0600
+
+    initialization project
