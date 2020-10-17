@@ -22,3 +22,13 @@ Route::post('/register', 'API\AuthController@register');
 Route::post('/login', 'API\AuthController@login');
 
 Route::get('/product-list','API\ProductController@productList');
+
+Route::middleware('auth:api')->group( function () {
+    Route::get('/add-to-cart/{id}','API\CartController@addToCart');
+    Route::delete('/delete-cart-item/{id}','API\CartController@deleteCartItem'); 
+    Route::post('/order','API\OrderController@order');
+
+});
+
+
+
