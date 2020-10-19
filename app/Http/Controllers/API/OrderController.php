@@ -42,6 +42,9 @@ class OrderController extends Controller
             ]);
         }
 
+        //update status
+        Cart::where('id',$cart_id->id)->update('status','Checkout');
+
         return response()->json('The order has been processed',200);
         
     }
